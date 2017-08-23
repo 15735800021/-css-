@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form name=form1 action="" onSubmit=" return closebut()" >
+<input name="imageField" type="submit" class="inputbut" value="确定" onclick="document.form1.imageField.disabled=true;"/><br>
+<input type="button" name="hui" id="hui" value="让提交按钮可用" onclick="document.form1.imageField.disabled=false" />
+</form>
+<script>
+function closebut(){
+document.form1.imageField.disabled=true;
+}
+</script>
+	</body>
+</html>

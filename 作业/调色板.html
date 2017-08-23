@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		div{
+			width:500px;
+			height:500px;	
+		}
+	</style>
+	<body>
+		<div id="box">
+			<button class="plus">+</button>
+			<input class="inp" type="text" value="0">
+			<button class="minus">-</button><br/>
+			<button class="plus">+</button>
+			<input class="inp" value=0>
+			<button class="minus">-</button><br/>
+			<button class="plus">+</button>
+			<input class="inp" value=0>
+			<button class="minus">-</button>
+			<button class="goo">go</button>
+		</div>
+	</body>
+	<script>
+		var oPlusBtn = document.getElementsByClassName('plus');
+		var oMinusBtn = document.getElementsByClassName('minus');
+		var oInp = document.getElementsByClassName('inp');
+		var oBox = document.getElementById('box');
+//		 var now = 0;
+//		 var maxNow = 255;
+//  	var minNow = 0;
+//  	var nowStep = 3;
+var ss=parseInt(oInp[0].value);
+var ss1=parseInt(oInp[1].value);
+var ss2=parseInt(oInp[2].value);
+
+    	 oPlusBtn[0].onclick = function() {
+    	 	console.log(typeof oInp[0].value);
+		      		 ss+= 2;
+		      		oInp[0].value = ss +"";
+		      if (oInp[0].value > 255) {
+		        oInp[0].value= 255;
+		      }
+	   	 }
+    	  oMinusBtn[0].onclick = function() {
+		      	oInp[0].value -= 2;
+		      if (oInp[0].value < 0) {
+		        oInp[0].value= 0;
+		      }
+    	}
+    	  	 oPlusBtn[1].onclick = function() {
+    	  	 	ss1+= 2;
+		      	oInp[1].value = ss1 +"";
+		      if (oInp[1].value > 255) {
+		        oInp[1].value= 255;
+		      }
+   		 }
+	    	  oMinusBtn[1].onclick = function() {
+		      	oInp[1].value -= 2;
+		      if (oInp[1].value < 0) {
+		        oInp[1].value= 0;
+		      }
+   		 }
+    	  	 oPlusBtn[2].onclick = function() {
+    	  	 		ss2+= 2;
+		      	oInp[2].value = ss2 +"";
+		      if (oInp[2].value > 255) {
+		        oInp[2].value= 255;
+		      }
+   		 }
+    	  oMinusBtn[2].onclick = function() {
+		      	oInp[2].value -= 2;
+		      if (oInp[2].value < 0) {
+		        oInp[2].value= 0;
+		      }
+   		 }
+    	  var oGo = document.getElementsByClassName('goo')[0];
+    	  oGo.onclick = function changeBackGround() {
+    	  oBox.style.backgroundColor ="rgb("+oInp[0].value+","+oInp[1].value+","+oInp[2].value+")";
+		}
+	</script>
+</html>

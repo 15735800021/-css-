@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<!--<table width="300px" height="300px" align="center" border="10px" cellpadding="50" cellspacing="0" bgcolor="#564584">
+				<thead>
+					<tr>
+						<td>1</td>
+					</tr>
+				</thead>
+			<tbody>
+				<tr align="center" valign="bottom">
+					<td colspan="2">1</td>
+					<td rowspan="2">3</td>
+				</tr>
+				<tr>
+					<td rowspan="2">4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td colspan="2">8</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>1</td>
+				</tr>
+			</tfoot>
+		</table>-->
+		<!--<table rules="rows">
+			<tr>
+			<th colspan="2">hhh</th>
+			<th>hhh</th>
+			
+			</tr>
+			<tr>
+				<td>
+				<table  border="1">
+			<tr>
+			<th colspan="2">hhh</th>
+			<th>hhh</th>
+			
+			</tr>
+			<tr>
+				<td>
+					<b>111</b>
+				</td>
+				<td>222</td>
+				<td>333</td>
+			</tr>
+			<tr>
+				<td>
+				<table  border="1">
+			<tr>
+			<th colspan="2">hhh</th>
+			<th>hhh</th>
+			
+			</tr>
+			<tr>
+				<td>111</td>
+				<td>222</td>
+				<td>333</td>
+			</tr>
+			<tr>
+				<td>444</td>
+				<td>555</td>
+				<td>666</td>
+			</tr>
+
+		</table>
+				</td>
+				<td>555</td>
+				<td>666</td>
+			</tr>
+
+		</table>
+				</td>
+				<td>222</td>
+				<td>333</td>
+			</tr>
+			<tr>
+				<td>444</td>
+				<td>555</td>
+				<td>666</td>
+			</tr>
+
+		</table>-->
+		<table width="600" height="600" border="1" rules="cols" >
+			<tr>
+			<th colspan="2">hhh</th>
+			<th>hhh</th>
+			
+			</tr>
+			<tr>
+				<td>111</td>
+				<td>222</td>
+				<td>333</td>
+			</tr>
+			<tr>
+				<td>444</td>
+				<td>555</td>
+				<td>666</td>
+			</tr>
+
+		</table>
+		<table width="600" height="600" rules="all" >
+			<tr>
+			<th colspan="2">hhh</th>
+			<th>hhh</th>
+			
+			</tr>
+			<tr>
+				<td>111</td>
+				<td>222</td>
+				<td>333</td>
+			</tr>
+			<tr>
+				<td>444</td>
+				<td>555</td>
+				<td>666</td>
+			</tr>
+
+		</table>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE HTML><!--声明-->
+<html>
+	<head>
+		<title>百度一下，你就知道</title>
+		<meta charset="utf-8"/>
+		<link rel="icon" href="cat.ico"/>
+	</head>
+	<body bgcolor="#abcdef" text="red">
+		hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;world&copy;&reg;&lt;b&gt;&yen;
+		<b>这是b标签</b><strong>这是strong</strong>
+		<i>这是i标签</i><em>这是em标签</em>
+		<s>这是s标签</s><del>这是del标签</del>
+		<u>这是u标签</u><sub>这是sub标签</sub>
+		CuSO<sub>4</sub><sup>&reg</sup>
+
+	</body>
+</HTML>

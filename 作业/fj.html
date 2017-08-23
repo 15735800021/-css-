@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width:50px;
+				height:50px;
+				border-radius:50% 50% 50% 50%;
+				background:yellowgreen;
+			}
+			h1{
+				width:100%;
+				height:2px;
+				background:deepskyblue;
+				margin:500px auto;
+			}
+			button{
+				width:200px;
+				height:50px;
+				margin:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<button>点</button>
+		<div></div>
+		<h1></h1>
+	</body>
+	<script>
+		var nowTop = 0;
+		var oTop=document.getElementsByTagName("button");
+		var oDiv=document.getElementsByTagName("div");
+		oTop[0].onclick = function(){
+			nowTop -= 10;
+			move();
+		}
+		function move(){
+			oDiv.style.top = nowTop+"px";
+		}
+	</script>
+</html>

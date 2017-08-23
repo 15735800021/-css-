@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p>这是一些内容</p>
+		<button>皮肤1</button>
+		<button>皮肤2</button>
+	</body>
+		<script>
+			var oFirstBtn = 
+			document.getElementsByTagName("button")[0];
+			var oSecondBtn =
+			document.getElementsByTagName("button")[1];
+			var oLink = document.getElementsByTagName("link")[0];
+			oFirstBtn.onclick = function(){
+				oLink.href = "style1.css";
+			}
+			oSecondBtn.onclick = function(){
+				oLink.href = "style2.css";
+			}
+		</script>
+</html>

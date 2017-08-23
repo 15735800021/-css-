@@ -1,0 +1,6 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+input{border:0;outline:none;}
+/*Í·²¿*/
+div{width:1583px;}

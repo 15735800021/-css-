@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			 img {
+	      position: absolute;
+	      top:300px;
+	      left:300px;
+    	}
+    	
+		</style>
+	</head>
+	<body>
+		<button>上</button>
+		<button>下</button>
+		<button>左</button>
+		<button>右</button>
+		<button>左上</button>
+		<button>右上</button>
+		<button>左下</button>
+		<button>右下</button>
+		<img src="http://pic.uzzf.com/up/2017-1/20171121826537945.gif" >
+	</body>
+	<script>
+		var nowLeft =300,nowTop = 300;
+		var oTop=document.getElementsByTagName("button");
+		var oImg=document.getElementsByTagName("img")[0];
+		oTop[0].onclick = function(){
+			nowTop -= 10;
+			move();
+		}
+		oTop[1].onclick = function(){
+			nowTop += 10;
+			move();
+		}
+		oTop[2].onclick = function(){
+			nowLeft -= 10;
+			move();
+		}
+		oTop[3].onclick = function(){
+			nowLeft += 10;
+			move();
+		}
+		oTop[4].onclick = function(){
+			nowLeft -= 10,nowTop -= 10;
+			move();
+		}
+		oTop[5].onclick = function(){
+			nowLeft += 10,nowTop -= 10;
+			move();
+		}
+		oTop[6].onclick = function(){
+			nowLeft -= 10,nowTop += 10;
+			move();
+		}
+		oTop[7].onclick = function(){
+			nowLeft += 10,nowTop += 10;
+			move();
+		}
+		function move(){
+			oImg.style.left = nowLeft+"px";
+			oImg.style.top = nowTop+"px";
+		}
+	</script>
+</html>

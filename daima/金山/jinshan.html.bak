@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="jinshan.css"/>
+	</head>
+	<body style="background-color:#f6f6f6;">
+		<header>
+			<div id="box">
+				<img src="img/logo.png" style="margin:7px 17px;"/>
+				<ul>
+					<li>安全套装</li>
+					<li class="bj">金山毒霸</li>
+					<li class="bj">金山卫士</li>
+					<li class="bj">手机助手</li>
+					<li class="bj">敢赔中心</li>
+					<li class="bj">产品大全</li>
+					<li class="bj">会员中心</li>
+					<li>
+						<div>
+							<input placeholder="输入要查找的内容"/>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section>
+			<div id="box1">
+				<div class="box2">
+					<img src="img/001.png">
+					<div class="box3">
+						安装包大小:<a>21.25M </a>安装时间:<a>10秒</a><br/>支持:XP/Vista/Win7/Win8/Win10
+					</div>
+					<div class="box4">
+						下载正式版
+					</div>
+					<div class="box5">
+						<a href="#"><img src="img/ndb-ricon.png">毒霸官网</a>
+						<a href="#"><img src="img/ndb-ricon.png">开发版尝鲜</a>
+						<a href="#"><img src="img/ndb-ricon.png">极速安装包</a>
+					</div>
+				</div>
+				<div class="box6">
+					<ul>
+						<li class="hj"><p>15M大小，10秒安装</p><p>轻盈小巧，简洁易用</p></li>
+						<li class="zt"><p>优化引擎，速度提升</p><p>极速清理，电脑更快</p></li>
+						<li class="mz"><p>支持Win10，全面保护</p><p>专注杀毒，安全加倍</p></li>
+					</ul>
+				</div>
+			</div>
+			<div id="searchbox">
+				<ul>
+					<li style="margin-right:6px;">
+						<h1>猎豹轻桌面</h1>
+						<img src="img/zhuomian.png" style="width:65px;">
+						<p>电脑桌面瞬间整洁干净<br>高效整理 精美壁纸</p>
+						<div class="searchbox1">立即下载</div>
+						<div class="searchbox2"><a href="#">论坛>></a></div>
+					</li>
+					<li style="margin-right:7px;">
+						<h1>金山极速套装<img src="img/hot.gif"></h1>
+						<img src="img/kis_jisu.png" style="width:65px;">
+						<p>金山毒霸+猎豹安全浏览器<br>极速安全新体验</p>
+						<div class="searchbox1">立即下载</div>
+						<div class="searchbox2"><a href="#">论坛>></a></div>
+					</li>
+					<li style="margin-right:6px;">
+						<h1>手机猎豹极速版</h1>
+						<img src="img/jslb-20140609.png" style="width:65px;">
+						<p>0秒瞬间启动<br>更轻 更快 更安全</p>
+						<div class="searchbox1">立即下载</div>
+						<div class="searchbox2"><a href="#">论坛>></a></div>
+					</li>
+					<li class="searchbox3">
+						<h1>猎豹安全浏览器</h1>
+						<img src="img/liebao_128.png" style="width:65px;">
+						<p>首款双核安全浏览器<br>更快 更炫 更安全</p>
+						<div class="searchbox1">立即下载</div>
+						<div class="searchbox2"><a href="#">论坛>></a></div>
+					</li>
+				</ul>
+			</div>
+			<div id="ds">
+				<ul>
+					<li class="ds1">
+						<h1>猎豹安全大师</h1>
+						<img src="img/cm-security-ijinshan.png">
+						<p>全球10亿装机安全应用<br/>内置全球第一杀毒引擎<br/>应用锁全面保护隐私<br/>一键体检更快更安全</p>
+						<div>立即下载</div>
+						<a href="#">论坛>></a>
+					</li>
+					<li class="ds2">
+						<img src="img/cm-56.jpg">
+						<h1>猎豹清理大师56个国家排第一</h1>
+						<p>全球 56 个国家工具排行第一！ 包括<br/>美国，英国等几乎所有发达国家。</p>
+						<div class="ds22">
+							<ol>
+								<li><a href="#" style="color:red;">猎豹移动第11次获得AV-TEST高分评测</a></li>
+								<li><a href="#" style="color:red;">猎豹安全专家详解公共WiFi安全</a></li>
+								<li><a href="#" style="color:#6d6d6d;">315曝光钓鱼WiFi 猎豹发布防御方案</a></li>
+								<li><a href="#" style="color:#6d6d6d;">315调查：10086兑奖诈骗引发网银危机</a></li>
+								<li><a href="#" style="color:#6d6d6d;">安全警告：2015相册会狂发病毒短信</a><b>更多>></b></li>
+							</ol>
+						</div>
+					</li>
+					<li class="ds3">
+						<h1>我们每天都在进步</h1>
+						<div class="ds33">
+							<ol>
+								<li><time>2016.04.18</time> 金山毒霸10正式版</li>
+								<li><time>2016.04.13</time> 猎豹清理大师 轻松你的安卓生活</li>
+								<li><time>2016.03.17</time> 金山电池医生 省电50%</li>
+								<li><time>2016.03.10</time> 金山卫士4.7 正式版</li>
+								<li><time>2016.02.18</time> 猎豹安全浏览器 更快、更炫、更安全</li>
+								<li><time>2013.06.19</time> 猎豹浏览器手机版发布</li>
+								<li><time>2013.03.27</time> 金山手机毒霸v2.0发布！</li>
+							</ol>
+						<div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer style="background-color:#f9f9f9;">
+			<div id="f1">
+				<ul>
+					<li>
+						<h1>产品</h1><br/>
+						<a href="#">金山毒霸<br/>猎豹安全浏览器<br/>金山电池医生<br/>金山猎豹游戏中心<br/>猎豹免费WiFi<br/>猎豹轻桌面<br/>更多>></a>
+					</li>
+					<li>
+						<h1>服务</h1><br/>
+						<a href="#">猎豹移动<br/>会员中心<br/>网址导航<br/>游戏中心<br/>远程维护</a>
+					</li>
+					<li>
+						<h1>资讯</h1><br/>
+						<a href="#">咨讯中心<br/>国际认证<br/>系统文件百科</a>
+					</li>
+					<li>
+						<h1>支持</h1><br/>
+						<a href="#">论坛<br/>误报样本举报<br/>网址申诉举报<br/>全球合作政策</a>
+					</li>
+					<li>
+						<h1>企业</h1><br/>
+						<a href="#">私有云平台<br/>XP防护盾<br/>TimeOn云杀毒<br/>解决方案<br/>服务支持</a>
+					</li>
+					<li class="f11">
+						<h1>联系</h1><br/>
+						<a href="#">关于我们<br/>招聘信息<br/>校园招聘<br/>联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<div id="f2">
+				<ul>
+					<li><a href="#">合作:</a></li>
+					<li><a href="#">苹果</a></li>
+					<li><a href="#">微软</a></li>
+					<li><a href="#">Google</a></li>
+					<li><a href="#">腾讯</a></li>
+					<li><a href="#">百度</a></li>
+					<li><a href="#">淘宝</a></li>
+					<li><a href="#">搜搜</a></li>
+					<li><a href="#">小米手机</a></li>
+					<li><a href="#">中国移动</a></li>
+					<li><a href="#">中国联通</a></li>
+					<li><a href="#">中国电信</a></li>
+					<li><a href="#">康佳集团</a></li>
+					<li><a href="#">惠普</a></li>
+					<li><a href="#" class="f22">更多>></a></li>
+					<li><a href="#" class="f23">申请合作>></a></li>
+				</ul>
+			</div>
+			<div id="f3">
+				京公网安备：11010502022786 京ICP证120823号 京网文【2012】0653-210号 京ICP备12038800号-1
+			</div>
+			<div id="f4">
+				<img src="img/footer_logo.gif"/>
+				<a>Copyright&copy2011-2016 北京金山网络科技有限公司 ALL Right Reserved <a class="gz">关注我们：</a>
+				<a class="f44"></a>
+				<a class="f45"></a>
+				<div id="f5"></div>
+				<div id="f6"></div>
+			</div>
+		</footer>
+		<aside>
+			<div id="fw"><div>
+		</aside>
+	</body>
+</html>

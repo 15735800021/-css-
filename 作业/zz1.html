@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<button>这是四季</button>
+	</body>
+	<script>
+		var oBtn = document.getElementsByTagName("button")[0];
+		var arr = ["demo1.js","demo2.js","demo3.js","demo4.js"];
+		var now=0;
+		oBtn.onclick = function(){
+			var oScript = document.createElement("script");
+				oScript.src = arr[now++];
+				return document.body.appendChild(oScript);
+				}	
+			
+	</script>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>	
+			.box{
+				width:300px;
+				height:200px;
+				background:deepskyblue;
+				margin:30px auto;
+			}
+			.box>div{
+				width:200px;
+				height:20px;
+				margin:30px auto;
+			}
+			.box>input{
+				margin:25px 0 0 85px;
+			}
+		</style>
+	</head>
+	<body >
+		<form action="">
+		    <p><label>用户名：<input type="text" placeholder="请输入用户名"></label></p>
+		    <p><label>密码：<input type="text" placeholder="请输入密码"></label></p>
+		    <p><label>确认密码：<input type="text" placeholder="请再次输入密码"></label></p>
+	     	<p> <input type="submit" value="提交注册"/></p>
+  		</form>
+	</body>
+	<script>
+		var oForm = document.getElementsByTagName("form");
+		var oName = document.getElementsByTagName("input")[0];
+		var oPassword = document.getElementsByTagName("input")[1];
+		var oConfirm = document.getElementsByTagName("input")[2];
+		var oRegister = document.getElementsByTagName("input")[3];
+		oForm.onsubmit = function(){
+			if (!/^[a-zA-Z]\w{5,11}$/.test(oName.value)) {
+        		alert('用户名错误');
+        		return false;
+     		}
+			if (!/^\w{6,16}$/.test(oPassword.value)) {
+        		alert('密码');
+        		return false;
+     		}
+			if (oConfirm.value!=oPassword.value) {
+        		alert('密码错误');
+        		return false;
+     		}
+			return true;
+		}
+	</script>
+</html>

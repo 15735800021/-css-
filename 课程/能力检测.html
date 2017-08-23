@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		 <style>
+    div {
+      padding: 10px 20px 30px;
+    }
+  </style>
+
+	</head>
+	<body>
+		<div></div>
+	</body>
+	<script>
+		alert(window.getComputedStyle);
+		var oDiv = document.getElementsByTagName("div")[0];
+		if (window.getComputedStyle){
+			alert(getComputedStyle(oDiv)["padding-left"])
+			}else{
+				alert(oDiv.currentStyle.paddingLeft);
+			}
+			
+		
+	</script>
+</html>

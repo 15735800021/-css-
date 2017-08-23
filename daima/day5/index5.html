@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<form action="index2.html" method="get">
+		<input   placeholder="连衣裙20左右" disabled/>
+		年龄：<input required/>
+		<input type="password" maxlength="3" readonly/>
+		<input type="radio" name="swn">男
+		<input type="radio" name="swn">女
+		<input type="checkbox" name="swn">女
+		<h1>人好不好</h1>
+			<input type="radio" name="hao" checked id="a"/>
+			<label for="a">好</label>
+			<input type="radio" name="hao"  id="b"/>
+			<label for="b">一般</label>
+			<input type="radio" name="hao"  id="c" disabled />
+			<label for="c">不好</label>
+			<input type="checkbox" id="agree"/>
+			<label for="agree">我已阅读并同意<a href="#">《相关协议》</a></label>
+			<input type="submit" value="请提交"/>
+			<input type="reset" value="清空"/>
+			<button>清空</button>
+			<input type="hidden"/>
+			<input type="file"/>
+			年龄
+			<select >
+			<option>1995</option>
+			<option>1996</option>
+			<option>1997</option>
+			<option selected>1998</option>
+			<option>1999</option>
+			</select>
+			<textarea></textarea>
+			<fieldset>
+				<legend>地址信息</legend>
+				地址：<input type="text"/><br/><br/>
+				邮编：<input type="text">
+			</fieldset>
+		</form>
+		<iframe src="index2.html" width="100%" height="300px" frameborder="0"></iframe>
+		<details>
+			<summary>发票信息</summary>
+			<div>
+				发票抬头：<input/><br/>
+				发票内容：<input/>
+			</div>
+		</details>
+		设备1：
+		<meter min="0" max="100" value="60"></meter>60%
+		<time></time>
+		<marquee behavior="alternate" scrollamount="40" direction="up" height="500px">好好学习，天天线上</marquee>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML><!--声明-->
+<html>
+	<head>
+		<title>粉色</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body bgcolor="pink">
+	
+	<h1 align="center">第二章 骨文</h1>
+	<hr size="5px" color="black" width="400px" align="left"/>
+	<img src="dog.jpg" width="200px" title="dog" alt="哈士奇" valign="middle" id="dog"/>
+	<p> 在族长与一些老人的祷告下，所有青壮年都露出郑重之色，进行礼拜。而不少妇孺也都赶了过来，默默祈祷，祈求去狩猎的亲人可以无恙的回来。</p>
+	<p> 山脉中太危险，离开柳木守护的村子，外面将是一个完全不同的世界，那里充满了恐怖的猛禽与巨兽。</p>
+	<br/>
+	<p>就这样，村中最强壮的一批人背着巨弓、带着阔剑出发了，走进了山川大泽间，顿时一股大荒气息迎面扑来。</p>
+	<p>目送狩猎队伍离去，老族长石云峰领着一群孩子来到村头的草地上，盘坐下来，道：“好了，你们这群皮猴子也该用功学习了。”
+</p>
+	<div>div1</div>
+	<div>div2</div>
+	<pre>
+	我
+	     很   
+		     开
+			      心
+	</pre>
+	<a href="http://www.baidu.com">百度</a>
+	<a href="#dog">回到dog</a>
+	<a href="\Users\hqy\Documents\Tencent Files\1031091715\FileRecv\IEtester.rar">下载</a>
+	<a href="javascript:history.go(1)">返回</a>
+	<a href="javascript:alert.(666)">返回</a>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script>
+		var str = 'a   b    c';
+	    console.log(str.split(''));
+	    console.log(str.split(/\s+/));
+	    var str = 'bbaacaaaadddaeeeeeaaf';
+	    console.log(str.split(/a+/));
+		var str = "a   vd   vvv  ";
+		console.log(str.split(/\s+/));
+		console.log(str.indexOf("v"));
+		console.log(str.search("v"));
+		console.log(str.search(/v/));
+		var str = "abbooooooooddobbodofegegogewoego";
+		console.log(str.match(/b+/g));
+		console.log(str.match("bb"));
+		var property = "borderTopWidth";
+		console.log(property.replace(/[A-Z]/g,function(match){
+			return "-" + match.toLowerCase();
+		}));
+		var property = "border-top-width";
+		console.log(property.replace(/-([a-z])/g,function(match,$1){
+			return $1.toUpperCase();
+		}))
+	</script>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+		<style>
+			body{
+			height:100%;
+			padding:0 100px;
+			}
+			div{
+			float:left;
+			height:200px;
+			}
+			#center{width:100%; 
+			background:green; }
+			#left,#right{ 
+			width:100px;
+			margin-left:-100%; 
+			background:red; 
+			position:relative; 
+			left:-100px;
+			}
+			#right{margin-left:-100px;left:100px;}
+		</style>
+	</head>
+	<body>
+			<div id="center">ghgdfhdhghfhshshshseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecenter</div>
+			<div id="left">left</div>
+			<div id="right">right</div>
+	</body>
+</html>

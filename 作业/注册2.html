@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			form{
+				width:300px;
+				height:300px;
+				background:skyblue;
+				margin:50px auto;
+			}
+			input{
+				margin:20px auto;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="" >
+    <p><label>用户名：<input type="text" placeholder="请输入用户名" style="margin-left:15px;"></label></p>
+    <p><label>密码：<input type="text" placeholder="请输入密码" style="margin-left:32px;"></label></p></p>
+    <p><label>确认密码：<input type="text" placeholder="请再次输入密码"></label></p>
+    <p>
+      <input type="submit" value="注册" style="margin:0 0 0 120px;"/>
+    </p>
+  </form>
+  <script>
+    var oForm = document.getElementsByTagName('form')[0];
+    var oName = document.getElementsByTagName('input')[0];
+    var oPassword = document.getElementsByTagName('input')[1];
+    var oConfirm = document.getElementsByTagName('input')[2];
+    var oRegister = document.getElementsByTagName('input')[3];
+    oForm.onsubmit = function(){
+      if (!/^[a-zA-Z]\w{5,11}$/.test(oName.value)) {
+        oRegister.disabled = true;
+        return false;
+      }
+      if (!/^\w{6,16}$/.test(oPassword.value)) {
+       oRegister.disabled = true;
+        return false;
+      }
+      if (oConfirm.value!=oPassword.value) {
+        oRegister.disabled = true;
+        return false;
+      }
+      return true;
+    }
+  </script>
+	</body>
+</html>
